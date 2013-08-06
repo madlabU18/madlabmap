@@ -18,8 +18,8 @@ CREATE TABLE map_data(
   KEY latitude (latitude) )";
 	
 // Execute query
-if (mysql_query( $dbh, $sql ) )  {
-  echo "Table persons created successfully";
+if (mysql_query( $sql, $dbh ) )  {
+  echo "Table created successfully";
 } else {
-	echo "Error creating table: " . mysql_error($dbh);
+  echo "Error creating table: " . mysql_error($dbh);
 }
