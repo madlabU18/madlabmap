@@ -16,6 +16,20 @@ def welcome():
 def env():
     return os.environ.get("VCAP_SERVICES", "{}")
 
+@app.route('/import')
+def import_csv():
+    import csv, codecs
+    data= open(url_for("static", filename="in.csv"))
+    reader=csv.DictReader(data, delimiter=",", quotechar='"')
+    for r in reader:
+        for k, v in r.items():
+            if not v:
+                r[k]=None
+            body=r
+            print (body)
+    return body
+                        
+
 @app.route('/mongo')
 def mongotest():
     from pymongo import Connection
