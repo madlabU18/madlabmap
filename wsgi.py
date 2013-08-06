@@ -5,12 +5,14 @@ import time
 import sys
 import os
 import json
-from flask import Flask, Request, Response
+from flask import Flask, Request, Response, render_template
 application = app = Flask('wsgi')
+app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 
 @app.route('/')
 def welcome():
-    return 'welcome to appfog!'
+    #return 'welcome to appfog!'
+    return render_template('index.jade', name="test")
 
 @app.route('/env')
 def env():

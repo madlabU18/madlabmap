@@ -1,0 +1,14 @@
+--- 
+applications: 
+  .: 
+    url: ${name}.${target-base}
+    framework: 
+      info: 
+        description: Python WSGI Application
+        mem: 64M
+        exec: 
+      name: wsgi
+    instances: 1
+    mem: 64M
+    infra: eu-aws
+    name: madlabmap
