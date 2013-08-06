@@ -15,3 +15,4 @@ if ( !$dbh ) {
 	print( "error connecting to the database" );
 }
 
+include_once( 'createdb.php' );
