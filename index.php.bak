@@ -10,7 +10,7 @@ define('DB_PASSWORD', 'max_db_YRS_2013');
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
-$dbh = mysql_connect( DB_HOST, DB_USER, DB_PASSWORD );
+$dbh = mysqli_connect( DB_HOST, DB_USER, DB_PASSWORD );
 if ( !$dbh ) {
 	print( "error connecting to the database" );
 }
