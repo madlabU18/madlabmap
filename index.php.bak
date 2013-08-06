@@ -14,6 +14,8 @@ $dbh = mysqli_connect( DB_HOST, DB_USER, DB_PASSWORD );
 if ( !$dbh ) {
 	print( "error connecting to the database" );
 }
-
+if ( !mysql_select_db( DB_NAME, $dbh ) ) {
+	print( "error connecting to the database" );
+}
 include_once( 'createdb.php' );
 
