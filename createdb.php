@@ -6,17 +6,16 @@ $sql="
 CREATE TABLE map_data(
   id bigint(20) unsigned NOT NULL auto_increment,
   data_type CHAR(30),
-  crime_id char(100),
-  event_date date,
-  longitude float,
-  latitude float,
-  location char(100),
-  outcome_type,
-
-  primary_key(id),
-  index data_type(data_type),
-  index longitude(longitude),
-  index latitude(latitude)
+  crime_id CHAR(100),
+  event_date DATE,
+  longitude FLOAT,
+  latitude FLOAT,
+  location CHAR(100),
+  outcome_type CHAR(100),
+  PRIMARY KEY (id),
+  KEY data_type (data_type),
+  KEY longitude (longitude),
+  KEY latitude (latitude)
 	)";
 
 // Execute query
