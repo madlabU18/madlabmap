@@ -12,5 +12,5 @@ if ( !$dbh ) {
 if ( !mysql_select_db( DB_NAME, $dbh ) ) {
 	print( "error connecting to the database" );
 }
-include_once( 'createdb.php' );
+//include_once( 'createdb.php' );
 
