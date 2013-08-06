@@ -11,13 +11,13 @@ CREATE TABLE map_data(
   longitude FLOAT,
   latitude FLOAT,
   location CHAR(100),
-  outcome_type CHAR(100)
-  primary key (id),
+  outcome_type CHAR(100),
+  PRIMARY KEY (id),
   KEY data_type (data_type),
   KEY longitude (longitude),
-  KEY latitude (latitude)
-	)";
+  KEY latitude (latitude) )";
 
+	
 // Execute query
 if (mysqli_query( $dbh, $sql ) )  {
   echo "Table persons created successfully";
