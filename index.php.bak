@@ -4,7 +4,7 @@ include_once( 'base-init.php' );
 include_once( 'functions.php' );
 
 zed1_debug(__FILE__,__LINE__);
-//create_db();
+create_db();
 $message = '';
 /* import one of the files */
 $massage .= import_police_file( '2013-06-avon-and-somerset-outcomes.csv');

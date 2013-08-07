@@ -1,0 +1,86 @@
+uri,pref label,label,comment,domain,domain > uri,range,range > uri,sub class of,sub class of > uri,type,type > uri
+http://education.data.gov.uk/def/school/,,core schools ontology,Ontology of school descriptions and classifications for EDUBase data,,,,,,,,http://www.w3.org/2002/07/owl#Ontology
+http://education.data.gov.uk/def/school/ASCHighestAge,,ASC highest age,,School,http://education.data.gov.uk/def/school/School,int,http://www.w3.org/2001/XMLSchema#int,,,,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://education.data.gov.uk/def/school/ASCLowestAge,,ASC lowest age,,School,http://education.data.gov.uk/def/school/School,int,http://www.w3.org/2001/XMLSchema#int,,,,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Comprehensive,Comprehensive,Comprehensive,,,,,,,,,http://education.data.gov.uk/def/school/AdmissionsPolicy_TERM
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Comprehensive,Comprehensive,Comprehensive,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Modern,Modern,Modern,,,,,,,,,http://education.data.gov.uk/def/school/AdmissionsPolicy_TERM
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Modern,Modern,Modern,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Non-selective,Non-selective,Non-selective,,,,,,,,,http://education.data.gov.uk/def/school/AdmissionsPolicy_TERM
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Non-selective,Non-selective,Non-selective,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://education.data.gov.uk/def/school/AdmissionsPolicy_TERM
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Not_collected,Not collected,Not collected,,,,,,,,,http://education.data.gov.uk/def/school/AdmissionsPolicy_TERM
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Not_collected,Not collected,Not collected,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Selective,Selective,Selective,,,,,,,,,http://education.data.gov.uk/def/school/AdmissionsPolicy_TERM
+http://education.data.gov.uk/def/school/AdmissionsPolicy_Selective,Selective,Selective,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/AdmissionsPolicy_TERM,,admissions policy terms,controlled terms for describing admissions policy,,,,,Concept,http://www.w3.org/2004/02/skos/core#Concept,,http://www.w3.org/2002/07/owl#Class
+http://education.data.gov.uk/def/school/Association_GSA,GSA,GSA,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_GSA,GSA,GSA,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_HMC,HMC,HMC,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_HMC,HMC,HMC,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_IAPS,IAPS,IAPS,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_IAPS,IAPS,IAPS,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_IAPS_GSA,IAPS & GSA,IAPS & GSA,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_IAPS_GSA,IAPS & GSA,IAPS & GSA,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_IAPS_HMC,IAPS & HMC,IAPS & HMC,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_IAPS_HMC,IAPS & HMC,IAPS & HMC,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_ISA,ISA,ISA,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_ISA,ISA,ISA,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_Not_affiliated,Not affiliated,Not affiliated,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_Not_affiliated,Not affiliated,Not affiliated,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_Other_combination,Other combination,Other combination,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_Other_combination,Other combination,Other combination,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_SHMIS,SHMIS,SHMIS,,,,,,,,,http://education.data.gov.uk/def/school/Association_TERM
+http://education.data.gov.uk/def/school/Association_SHMIS,SHMIS,SHMIS,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Association_TERM,,association terms,controlled terms for describing association,,,,,Concept,http://www.w3.org/2004/02/skos/core#Concept,,http://www.w3.org/2002/07/owl#Class
+http://education.data.gov.uk/def/school/Beacon_Beacon_College,Beacon College,Beacon College,,,,,,,,,http://education.data.gov.uk/def/school/Beacon_TERM
+http://education.data.gov.uk/def/school/Beacon_Beacon_College,Beacon College,Beacon College,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Beacon_Beacon_School,Beacon School,Beacon School,,,,,,,,,http://education.data.gov.uk/def/school/Beacon_TERM
+http://education.data.gov.uk/def/school/Beacon_Beacon_School,Beacon School,Beacon School,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Beacon_Learning_and_Skills_Beacon_Post_16_Education_Training,Learning and Skills Beacon (Post 16 Education & Training),Learning and Skills Beacon (Post 16 Education & Training),,,,,,,,,http://education.data.gov.uk/def/school/Beacon_TERM
+http://education.data.gov.uk/def/school/Beacon_Learning_and_Skills_Beacon_Post_16_Education_Training,Learning and Skills Beacon (Post 16 Education & Training),Learning and Skills Beacon (Post 16 Education & Training),,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Beacon_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://education.data.gov.uk/def/school/Beacon_TERM
+http://education.data.gov.uk/def/school/Beacon_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Beacon_TERM,,beacon terms,controlled terms for describing beacon,,,,,Concept,http://www.w3.org/2004/02/skos/core#Concept,,http://www.w3.org/2002/07/owl#Class
+http://education.data.gov.uk/def/school/Boarders_Boarding_School,Boarding School,Boarding School,,,,,,,,,http://education.data.gov.uk/def/school/Boarders_TERM
+http://education.data.gov.uk/def/school/Boarders_Boarding_School,Boarding School,Boarding School,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Boarders_Children_s_Home_Boarding_School,Children's Home (Boarding School),Children's Home (Boarding School),,,,,,,,,http://education.data.gov.uk/def/school/Boarders_TERM
+http://education.data.gov.uk/def/school/Boarders_Children_s_Home_Boarding_School,Children's Home (Boarding School),Children's Home (Boarding School),,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Boarders_No_Boarders,No Boarders,No Boarders,,,,,,,,,http://education.data.gov.uk/def/school/Boarders_TERM
+http://education.data.gov.uk/def/school/Boarders_No_Boarders,No Boarders,No Boarders,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Boarders_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://education.data.gov.uk/def/school/Boarders_TERM
+http://education.data.gov.uk/def/school/Boarders_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/Boarders_TERM,,boarders terms,controlled terms for describing boarders,,,,,Concept,http://www.w3.org/2004/02/skos/core#Concept,,http://www.w3.org/2002/07/owl#Class
+http://education.data.gov.uk/def/school/BoardingEstablishment,,Has boarders,A class used as a boolean marker to indicate Has boarders,,,,,,,,http://www.w3.org/2002/07/owl#Class
+http://education.data.gov.uk/def/school/BurnhamReport_Independent_Schools,Independent Schools,Independent Schools,,,,,,,,,http://education.data.gov.uk/def/school/BurnhamReport_TERM
+http://education.data.gov.uk/def/school/BurnhamReport_Independent_Schools,Independent Schools,Independent Schools,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/BurnhamReport_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://education.data.gov.uk/def/school/BurnhamReport_TERM
+http://education.data.gov.uk/def/school/BurnhamReport_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/BurnhamReport_Primary_Secondary_and_Nursery,"Primary, Secondary and Nursery","Primary, Secondary and Nursery",,,,,,,,,http://education.data.gov.uk/def/school/BurnhamReport_TERM
+http://education.data.gov.uk/def/school/BurnhamReport_Primary_Secondary_and_Nursery,"Primary, Secondary and Nursery","Primary, Secondary and Nursery",,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/BurnhamReport_TERM,,burnham report terms,controlled terms for describing burnham report,,,,,Concept,http://www.w3.org/2004/02/skos/core#Concept,,http://www.w3.org/2002/07/owl#Class
+http://education.data.gov.uk/def/school/CensusRecord,,Census Record,A record of school population numbers for a particular time interval,,,,,,,,http://www.w3.org/2002/07/owl#Class
+http://education.data.gov.uk/def/school/Diocese,,Diocese,TODO insert formal definition here,,,,,,,,http://www.w3.org/2002/07/owl#Class
+http://education.data.gov.uk/def/school/EBD,,pupil referral unit provides for Educational and Behavioural Difficulties,,School,http://education.data.gov.uk/def/school/School,boolean,http://www.w3.org/2001/XMLSchema#boolean,,,,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://education.data.gov.uk/def/school/EIC,,excellence in cities,,School,http://education.data.gov.uk/def/school/School,EIC,http://education.data.gov.uk/def/school/EIC,,,,http://www.w3.org/2002/07/owl#ObjectProperty
+http://education.data.gov.uk/def/school/EICCLS,,excellence in cities cls,,School,http://education.data.gov.uk/def/school/School,boolean,http://www.w3.org/2001/XMLSchema#boolean,,,,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://education.data.gov.uk/def/school/EICGroup,,excellence in cities group,,School,http://education.data.gov.uk/def/school/School,excellence in cities group terms,http://education.data.gov.uk/def/school/EICGroup_TERM,,,,http://www.w3.org/2002/07/owl#ObjectProperty
+http://education.data.gov.uk/def/school/EICGroup_Clusters,Clusters,Clusters,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/EICGroup_Clusters,Clusters,Clusters,,,,,,,,excellence in cities group terms,http://education.data.gov.uk/def/school/EICGroup_TERM
+http://education.data.gov.uk/def/school/EICGroup_EiC_Primary,EiC Primary,EiC Primary,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/EICGroup_EiC_Primary,EiC Primary,EiC Primary,,,,,,,,excellence in cities group terms,http://education.data.gov.uk/def/school/EICGroup_TERM
+http://education.data.gov.uk/def/school/EICGroup_Not_applicable,Not applicable,Not applicable,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/EICGroup_Not_applicable,Not applicable,Not applicable,,,,,,,,excellence in cities group terms,http://education.data.gov.uk/def/school/EICGroup_TERM
+http://education.data.gov.uk/def/school/EICGroup_Phase_1_Primary,Phase 1 Primary,Phase 1 Primary,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/EICGroup_Phase_1_Primary,Phase 1 Primary,Phase 1 Primary,,,,,,,,excellence in cities group terms,http://education.data.gov.uk/def/school/EICGroup_TERM
+http://education.data.gov.uk/def/school/EICGroup_Phase_1_Secondary,Phase 1 Secondary,Phase 1 Secondary,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/EICGroup_Phase_1_Secondary,Phase 1 Secondary,Phase 1 Secondary,,,,,,,,excellence in cities group terms,http://education.data.gov.uk/def/school/EICGroup_TERM
+http://education.data.gov.uk/def/school/EICGroup_Phase_2_Primary,Phase 2 Primary,Phase 2 Primary,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/EICGroup_Phase_2_Primary,Phase 2 Primary,Phase 2 Primary,,,,,,,,excellence in cities group terms,http://education.data.gov.uk/def/school/EICGroup_TERM
+http://education.data.gov.uk/def/school/EICGroup_Phase_2_Secondary,Phase 2 Secondary,Phase 2 Secondary,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/EICGroup_Phase_2_Secondary,Phase 2 Secondary,Phase 2 Secondary,,,,,,,,excellence in cities group terms,http://education.data.gov.uk/def/school/EICGroup_TERM
+http://education.data.gov.uk/def/school/EICGroup_Phase_3_Primary,Phase 3 Primary,Phase 3 Primary,,,,,,,,,http://www.w3.org/2004/02/skos/core#Concept
+http://education.data.gov.uk/def/school/EICGroup_Phase_3_Primary,Phase 3 Primary,Phase 3 Primary,,,,,,,,excellence in cities group terms,http://education.data.gov.uk/def/school/EICGroup_TERM

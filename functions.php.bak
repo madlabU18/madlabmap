@@ -122,9 +122,9 @@ function process_police_row( $row, $line ) {
 		  }
 	  } else {
 		  if ( $update )
-			  $ret = array( 'ok' => "Processed line $line. crime_id={$data['crime_id']}", 'id' => $data['crime_id'] );
+			  $ret = array( 'ok' => "Processed line $line. UPRN={$data['crime_id']}", 'id' => $data['crime_id'] );
 		  else
-			  $ret = array( 'ok' => "Processed line $line. crime_id={$data['crime_id']}", 'id' => $data['crime_id'], 'new' => $data['crime_id'] );
+			  $ret = array( 'ok' => "Processed line $line. UPRN={$data['crime_id']}", 'id' => $data['crime_id'], 'new' => $data['crime_id'] );
 	  }
   } else {
 	  if ( count( $row ) == 0 )

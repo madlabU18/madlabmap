@@ -4,7 +4,7 @@ define('DB_NAME', 'max_db');
 define('DB_USER', 'max_user');
 define('DB_PASSWORD', 'max_db_YRS_2013');
 define('DB_HOST', 'localhost');
-@ini_set('display_errors',0);
+@ini_set('display_errors',1);
 
 $table_prefix = '';
 if ( !defined( 'ABSPATH' ) ) {
