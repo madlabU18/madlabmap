@@ -35,3 +35,5 @@ then cd public_html/madlabmap
 git pull
 
 
+then test in browser
+http://pipetree.com/~max/madlabmap/
