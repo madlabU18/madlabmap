@@ -24,3 +24,16 @@ mysql> grant all privileges on max_db.* to max_user@localhost identified by 'max
 Query OK, 0 rows affected (0.00 sec)
 
 
+
+-----------------------------
+
+
+push to git up
+
+then log in to DJ's server using putty
+then cd public_html/madlabmap
+git pull
+
+
+then test in browser
+http://pipetree.com/~max/madlabmap/

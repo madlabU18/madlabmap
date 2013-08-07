@@ -59,9 +59,13 @@ layout
 
 	<ul id="nav">
 	  <li><a href="#">Test 1</li>
+<<<<<<< HEAD
 	  <li><a class="content-click" rel="gb-human-development.html" href="gb-human-development.html">GB Human Development</li>
 	  <li><a class="content-click" rel="GDP-comparison-data.htm" href="GDP-comparison-data.htm">GB Comparison Data</li>
 	  <li><a class="content-click" rel="Post-education-earnings.htm" href="Post-education-earnings.htm">Post Education Earnings</li>
+=======
+	  <li><a class="content-click" rel="gb-human-development.html" href="gb-human-development.html">GB Human Development</a></li>
+>>>>>>> 96a2d8adffd745c48a98faad531e3b3e3717c9db
 	</ul>
 
   </div><!-- /menu -->
