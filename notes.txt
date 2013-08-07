@@ -1,0 +1,26 @@
+/ ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME', 'djwordpress');
+
+/** MySQL database username */
+define('DB_USER', 'root');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'J0sephXX');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+
+
+
+ysql> create database max_db;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> grant all privilege on max_db to max_user@localhost identified by 'max_db_YRS_2013';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'privilege on max_db to max_user@localhost identified by 'max_db_YRS_2013'' at line 1
+mysql> grant all privileges on max_db to max_user@localhost identified by 'max_db_YRS_2013';
+ERROR 1046 (3D000): No database selected
+mysql> grant all privileges on max_db.* to max_user@localhost identified by 'max_db_YRS_2013';
+Query OK, 0 rows affected (0.00 sec)
+
+
