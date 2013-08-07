@@ -1,0 +1,21 @@
+
+
+#wrap {
+  border: 1px black solid;
+  margin: 1%;
+  padding: 1%;
+  float:left;
+  width: 96%;
+}
+
+#menu {
+  border: 1px black solid;
+  width: 30%;
+  float:left;
+}
+
+#content {
+  border: 1px black solid;
+  width: 65%;
+  float:right;
+}
