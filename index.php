@@ -59,7 +59,7 @@ layout
 
 	<ul id="nav">
 	  <li><a href="#">Test 1</li>
-	  <li><a class="content-click" rel="gb-human-development.html" href="gb-human-development.html">GB Human Development</li>
+	  <li><a class="content-click" rel="gb-human-development.html" href="gb-human-development.html">GB Human Development</a></li>
 	</ul>
 
   </div><!-- /menu -->
