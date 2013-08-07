@@ -1,4 +1,5 @@
 <?php
+ 
 define('DB_NAME', 'max_db');
 define('DB_USER', 'max_user');
 define('DB_PASSWORD', 'max_db_YRS_2013');
@@ -12,5 +13,3 @@ if ( !$dbh ) {
 if ( !mysql_select_db( DB_NAME, $dbh ) ) {
 	print( "error connecting to the database" );
 }
-include_once( 'createdb.php' );
-

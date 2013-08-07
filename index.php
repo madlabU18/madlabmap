@@ -1,16 +1,18 @@
 <?php
-define('DB_NAME', 'max_db');
-define('DB_USER', 'max_user');
-define('DB_PASSWORD', 'max_db_YRS_2013');
-define('DB_HOST', 'localhost');
-@ini_set('display_errors',1);
+include_once( 'config.php' );
+include_once( 'functions.php' );
 
-$dbh = mysql_connect( DB_HOST, DB_USER, DB_PASSWORD );
-if ( !$dbh ) {
-	print( "error connecting to the database" );
-}
-if ( !mysql_select_db( DB_NAME, $dbh ) ) {
-	print( "error connecting to the database" );
-}
-//include_once( 'createdb.php' );
 
+
+
+
+/* the output below */
+?><html>
+<head>
+  <title>MadLab Map</title>
+</head>
+<body>
+<h1>MadLab Map</h1>
+<p>Nothing here yet...</p>
+</body>
+</html>
