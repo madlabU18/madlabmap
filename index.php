@@ -4,11 +4,13 @@ include_once( 'base-init.php' );
 include_once( 'functions.php' );
 
 zed1_debug(__FILE__,__LINE__);
-//create_db();
+//create_db(); // create table
+//create_db2(); // create table 2
 $message = '';
 /* import one of the files */
-//$message .= import_police_file( '2013-06-avon-and-somerset-outcomes.csv');
-
+//$message .= import_police_file( 'new/Crime occurences2010-2013/2013-06/2013-06-avon-and-somerset-street.csv');
+//$message .= import_schools_file( 'new/Primary2005_csv.csv');
+//$message .= import_fe_file( 'new/Learners_Local_Authority_Distict_1112.csv');
 
 
 
@@ -58,10 +60,9 @@ layout
   <div id="menu">
 
 	<ul id="nav">
-	  <li><a href="#">Test 1</li>
-	  <li><a class="content-click" rel="HTML/GBR-Human-Development.html" href="HTML/GBR-Human-Development.html">GB Human Development</a></li>
-	  <li><a class="content-click" rel="HTML/GDP-comparison-data.html" href="HTML/GDP-comparison-data.html">GB Comparison Data</a></li>
-	  <li><a class="content-click" rel="HTML/Post-education-earnings.html" href="HTML/Post-education-earnings.html">Post Education Earnings</a></li>
+	  <li><a class="content-click" href="HTML/GBR-Human-Development.html">GB Human Development</a></li>
+	  <li><a class="content-click" href="HTML/GDP-comparison-data.html">GB Comparison Data</a></li>
+	  <li><a class="content-click" href="HTML/Post-education-earnings.html">Post Education Earnings</a></li>
 	</ul>
 
   </div><!-- /menu -->
